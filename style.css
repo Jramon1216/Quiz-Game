@@ -1,0 +1,113 @@
+html
+{
+    background-image: url("comp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header
+{
+    text-align: center;
+    border-bottom: solid;
+    border-color: none, none, black, none;
+    background-image: url("blurry-blue.jpg");
+    background-size: cover;
+    padding-top: 5px;
+}
+
+h1 , h3 
+{
+
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+    background-color: #c7dddf;
+	font-size: x-large;
+	text-align: center;
+    background-image: url("blurry-blue.jpg");
+    background-size: cover;
+    border-radius: 10px;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+    border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+    background-image: url("blurry-blue.jpg");
+    background-size: cover;
+		
+}
+.option{	
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: lightskyblue;
+	border-radius: 25%;
+    margin-top: 40px;
+}
+.option:hover{
+	background-color: lightgoldenrodyellow;
+}
+.navigation{
+	width: 60vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-image: url("blurry-blue.jpg");
+    border-radius: 10px;
+}
+
+.evaluate,.next{
+	width: 200px;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+    border-radius: 20px;
+}
+.evaluate{
+	
+	background-color: #50db50;
+}
+.next{
+	color: white;
+	background-color: #BF3325;
+}
+
